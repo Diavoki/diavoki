@@ -1,8 +1,3 @@
-@media screen and (max-width: 500px) {
-
-div.example {width: 700px;}
-
-}
 
 body {
 	font-family: Arial, sans-serif;
@@ -89,14 +84,14 @@ article p {
 	
    }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 700px) {
 
-div.example {width: 1100px;}
+div.example {width: 660px;}
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 700px) {
 
-div.example {width: 980px;}
+div.example {width: 650px;}
 
 }
