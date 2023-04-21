@@ -1,0 +1,53 @@
+.page-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-top: 40px; /* добавляем отступ сверху */
+  }
+
+  img {
+    top: -50px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  hr {
+    border: none;
+    height: 1px;
+    background-color: red;
+    margin: 20px 0;
+  }
+
+  p {
+    text-indent: 20px;
+  }
+
+  .back-button {
+    display: block;
+    width: 100%;
+    height: 20px;
+    margin: 5px 3px; /* добавляем px после 5 */
+    background-color: gray;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: Pompadur; /* Гарнитура шрифта */
+    src: url(TriodPostnaja.ttf); /* Путь к файлу со шрифтом */
+   }
+  
+.table-of-contents{
+    font-family: Pompadur, 'TriodPostnaja', cursive;
+}
+.title-article1{
+    font-family: Pompadur, 'TriodPostnaja', cursive;
+}

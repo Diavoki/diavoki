@@ -25,34 +25,60 @@ img {
 }
 
 blockquote {
-	font-style: italic;
+	font-style: TriodPostnaja;
+	font-family: Pompadur, 'TriodPostnaja', cursive;
 	padding: 20px;
 	background-color: #f9f9f9;
 	margin: 0;
 }
 
-nav ul {
+blockquote::after {
+  content: "";
+  display: block;
+  height: 1px;
+  /* background: url("ornament.png") center center no-repeat; */
+  background-color: red;
+  background-size: contain;
+  margin: 20px 0;
+}
+
+.telegram-icon {
+  position: fixed;
+  bottom: 20px; /* или любое другое значение, которое вам нужно */
+  left: 45%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  width: 50px; /* или любое другое значение, которое вам нужно */
+  height: 50px; /* или любое другое значение, которое вам нужно */
+}
+
+
+
+/* nav */
+div ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-nav li {
+div li {
 	display: block;
 	margin-bottom: 20px;
 	text-align: center;
 }
 
-nav a {
+div a {
 	display: block;
 	padding: 10px;
 	background-color: #f9f9f9;
 	border-radius: 10px;
 	text-decoration: none;
 	color: #333;
+	padding-left: 10;
+	padding-right: 10;
 }
 
-nav a:hover {
+div a:hover {
 	background-color: #333;
 	color: #fff;
 }
@@ -78,7 +104,7 @@ article p {
     font-family: Pompadur; /* Гарнитура шрифта */
     src: url(TriodPostnaja.ttf); /* Путь к файлу со шрифтом */
    }
-.truha1 {
-    font-family: Pompadur, 'Comic Sans MS', cursive;
+.blogdanik {
+    font-family: Pompadur, 'TriodPostnaja', cursive;
    }
 
