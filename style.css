@@ -1,8 +1,8 @@
-
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+ max-width: 500px; /* Максимальная ширина страницы в пикселах */ 
 }
 
 header {
@@ -77,21 +77,8 @@ article p {
 
 @font-face {
     font-family: Pompadur; /* Гарнитура шрифта */
-    src: url(TriodPostnaja.ttf); /* Путь к файлу со шрифтом */
+    src: url(fonts/TriodPostnaja.ttf); /* Путь к файлу со шрифтом */
    }
 .truha1 {
-    font-family: Pompadur, 'TriodPostnaja', cursive;
-	
+    font-family: Pompadur, 'Comic Sans MS', cursive;
    }
-
-@media screen and (max-width: 700px) {
-
-div.example {width: 660px;}
-
-}
-
-@media screen and (max-width: 700px) {
-
-div.example {width: 650px;}
-
-}
