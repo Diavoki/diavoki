@@ -76,7 +76,7 @@ article p {
 
 @font-face {
     font-family: Pompadur; /* Гарнитура шрифта */
-    src: url(fonts/TriodPostnaja.ttf); /* Путь к файлу со шрифтом */
+    src: url(TriodPostnaja.ttf); /* Путь к файлу со шрифтом */
    }
 .truha1 {
     font-family: Pompadur, 'Comic Sans MS', cursive;
