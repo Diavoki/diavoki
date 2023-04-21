@@ -79,6 +79,6 @@ article p {
     src: url(TriodPostnaja.ttf); /* Путь к файлу со шрифтом */
    }
 .truha1 {
-    font-family: Pompadur, 'Comic Sans MS', cursive;
+    font-family: Pompadur, 'TriodPostnaja', cursive;
    }
 
