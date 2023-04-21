@@ -2,7 +2,6 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
- max-width: 500px; /* Максимальная ширина страницы в пикселах */ 
 }
 
 header {
@@ -82,37 +81,4 @@ article p {
 .truha1 {
     font-family: Pompadur, 'Comic Sans MS', cursive;
    }
-   
- @media screen and (max-width: 600px) {
-  /* добавляем стили для мобильных устройств */
-  header {
-    flex-wrap: wrap;
-  }
-
-  h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  img {
-    margin-left: 0;
-    margin-bottom: 20px;
-  }
-
-  nav li {
-    margin-bottom: 10px;
-  }
-
-  nav a {
-    padding: 5px;
-  }
-
-  article h2 {
-    font-size: 22px;
-  }
-
-  article p {
-    font-size: 14px;
-  }
-}
 
