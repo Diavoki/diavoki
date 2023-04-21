@@ -1,0 +1,83 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #f9f9f9;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h1 {
+	font-size: 28px;
+	margin: 0;
+}
+
+img {
+	max-width: 100px;
+	height: 100px;
+	width: 100px;
+	margin-left: 20px;
+}
+
+blockquote {
+	font-style: italic;
+	padding: 20px;
+	background-color: #f9f9f9;
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #333;
+}
+
+nav a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+article {
+	padding: 20px;
+	background-color: #f9f9f9;
+	margin-top: 20px;
+}
+
+article h2 {
+	font-size: 24px;
+	margin: 0 0 10px 0;
+}
+
+article p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+}
+
+@font-face {
+    font-family: Pompadur; /* Гарнитура шрифта */
+    src: url(fonts/TriodPostnaja.ttf); /* Путь к файлу со шрифтом */
+   }
+.truha1 {
+    font-family: Pompadur, 'Comic Sans MS', cursive;
+   }
