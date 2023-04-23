@@ -25,7 +25,7 @@ h1 {
 	width: 100px;
 	margin-left: 20px;
 	transform: translateX(-150%);
- animation: ani 1s forwards;
+ animation: ani 1.5s forwards;
 }
 
 @keyframes ani {
@@ -63,10 +63,27 @@ blockquote::after {
   margin: 20px 0;
 }
 
+.telegram-icon-back{
+    width: 80px;
+    height: 30px;
+    position: fixed;
+    bottom: 10px;
+        right: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #2CA5E0;
+        color: #D8E2EB;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Pompadur, 'TriodPostnaja', cursive;
+}
+
 .telegram-icon {
   position: fixed;
-  bottom: 20px; /* или любое другое значение, которое вам нужно */
-  left: 45%;
+  bottom: 10px; /* или любое другое значение, которое вам нужно */
+  right: 10px;
   transform: translateX(-50%);
   border-radius: 50%;
   width: 50px; /* или любое другое значение, которое вам нужно */
